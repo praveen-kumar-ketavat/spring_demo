@@ -4,12 +4,13 @@ import jakarta.persistence.*;
 
 @Entity
 public class Employee {
-	@Id
-	private String id;
-	public String name;
-	public String location;
-	
-	public String getId() {
+    @Id
+    private String id;
+    public String name;
+    public String location;
+    pulic String password;
+
+    public String getId() {
         return id;
     }
 
